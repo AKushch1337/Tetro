@@ -16,3 +16,10 @@ const PIECES = [
     [[0, 6, 0], [6, 6, 6]],      // T
     [[7, 7, 0], [0, 7, 7]]       // Z
 ];
+
+const POINTS = {
+	SINGLE: 100,
+	DOUBLE: 300,
+	TRIPLE: 500,
+	TETRIS: 800
+    };

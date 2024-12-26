@@ -3,6 +3,19 @@ let currentPiece = null;
 let dropCounter = 0;
 let dropInterval = 1000;
 let lastTime = 0;
+let score = 0;
+let lines = 0;
+
+function updateScore(linesCleared) {
+    switch (linesCleared) {
+        case 1: score += POINTS.SINGLE; break;
+        case 2: score += POINTS.DOUBLE; break;
+        case 3: score += POINTS.TRIPLE; break;
+        case 4: score += POINTS.TETRIS; break;
+    }
+    document.getElementById('score').textContent = score;
+    document.getElementById('lines').textContent = lines;
+}
 
 function update(time = 0) {
     const deltaTime = time - lastTime;
