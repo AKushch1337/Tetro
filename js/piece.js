@@ -15,6 +15,12 @@ class Piece {
 		});
 	    });
 	}
+	rotate() {
+		const rotated = this.shape[0].map((_, i) =>
+		    this.shape.map(row => row[row.length - 1 - i])
+		);
+		return rotated;
+	    }
     }
     
 function drawBlock(x, y, color) {
