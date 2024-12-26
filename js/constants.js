@@ -23,3 +23,8 @@ const POINTS = {
 	TRIPLE: 500,
 	TETRIS: 800
     };
+
+const LEVEL = {
+	SPEED_INCREASE: 0.8,
+	LINES_PER_LEVEL: 10
+    };

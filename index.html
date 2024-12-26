@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Tetris</h1>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="300" height="600"></canvas>
+        <div id="score-container">
+            <h2>Score: <span id="score">0</span></h2>
+            <h3>Lines: <span id="lines">0</span></h3>
+            <p>Controls:</p>
+            <ul>
+                <li>← → : Move</li>
+                <li>↑ : Rotate</li>
+                <li>↓ : Soft Drop</li>
+                <li>Space : Hard Drop</li>
+            </ul>
+        </div>
+    </div>
+    <div id="gameOver" class="game-over">Game Over!</div>
+
+    <script src="js/constants.js"></script>
+    <script src="js/piece.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

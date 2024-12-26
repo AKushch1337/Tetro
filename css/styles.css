@@ -7,7 +7,26 @@ body {
 	font-family: Arial, sans-serif;
     }
     
-canvas {
+    #game-container {
+	display: flex;
+	gap: 20px;
+	margin-top: 20px;
+    }
+    
+    canvas {
 	border: 2px solid #333;
 	background-color: #000;
-}
+    }
+    
+    #score-container {
+	padding: 20px;
+	background-color: #333;
+	border-radius: 8px;
+    }
+    
+    .game-over {
+	position: absolute;
+	font-size: 48px;
+	color: red;
+	display: none;
+    }
