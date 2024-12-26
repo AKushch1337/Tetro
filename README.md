@@ -10,12 +10,11 @@ A modern implementation of the classic Tetris game using vanilla JavaScript, HTM
 - 🎨 Colorful tetromino pieces
 - 📊 Score tracking system
 - ⌨️ Responsive keyboard controls
-- 📱 Mobile-friendly design
 - 🔄 Piece rotation system
 
 ## Demo
 
-You can play the game [here](#) (replace with your hosted game URL)
+You can play the game [here](https://akushch1337.github.io/Tetro/)
 
 ## Getting Started
 
